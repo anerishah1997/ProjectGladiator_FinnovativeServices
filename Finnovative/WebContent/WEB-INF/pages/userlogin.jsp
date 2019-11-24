@@ -12,7 +12,7 @@
             <a href="indexPage"><i class="fa fa-fw fa-home"></i> Home</a>
             <!-- <a href="register.jsp"><i class="fa fa-fw fa-search"></i> Register</a>
             <a href="productlist.jsp"><i class="fa fa-fw fa-envelope"></i> Browse Products</a> -->
-            <a href="userlogin.jsp"><i class="fa fa-fw fa-user"></i> Login</a>
+            <a href="userloginPage"><i class="fa fa-fw fa-user"></i> Login</a>
             <!-- <a style="float:right" href="adminlogin.html"><i class="fa fa-fw fa-user"></i> Admin</a> -->
           </div>
     <table border="1" align="center" style="margin-left:auto;margin-right:auto;margin-top:20%;margin-bottom:0%">
@@ -33,7 +33,8 @@
             <td colspan="2" align="center"><input type="submit" value="Login"/></td></tr>
             </tr>
              <tr>
-                 <td><a href="">forgot password?</a></td>
+              <td><a href="forgotPassword">Forgot Password</a></td>
+                 
                  <td><a href="registerPage">New User? Register here!</a></td>
              </tr>
         </table>

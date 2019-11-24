@@ -14,7 +14,7 @@ function validate() {
     } 
     else{
         var form = document.getElementById("reg");
-        form.action = "registerUser.do";
+        form.action = "Home.html";
         form.submit();
     }
     

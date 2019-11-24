@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>View user details</title>
 </head>
 <body>
 <table border="1" align="center" border="1" style="margin-left:auto;margin-right:auto;margin-top:4%;margin-bottom:0%;height:120; width:80%;" >
@@ -74,9 +74,16 @@
 				<td><c:out value="${ user.ifscCode }"/></td>
 			</tr>
 			<tr>
+			<td>Aadhar Card
+			</td>
+			
+			<td> <img src ="KYCDocs/${ user.aadharDoc }" id="img" style="width:15em; height:15em;" >
+			</td>
+			</tr>
+			<%-- <tr>
 				<td>Aadhar Card: </td>
 				<td><c:out value="${ user.aadharDoc }"/></td>
-			</tr>
+			</tr> --%>
 			<tr>
 				<td>Status: </td>
 				<td><c:out value="${ user.status }"/></td>

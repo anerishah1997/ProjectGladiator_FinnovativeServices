@@ -10,9 +10,9 @@
 </head>
 <body>
   <div class="navbar">
-            <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-            <a href="register.html"><i class="fa fa-fw fa-search"></i> Register</a>
-            <a href="userlogin.html"><i class="fa fa-fw fa-user"></i> Login</a>
+            <a href="indexPage"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="registerPage"><i class="fa fa-fw fa-search"></i> Register</a>
+            <a href="userloginPage"><i class="fa fa-fw fa-user"></i> Login</a>
           
           </div>
 <form action="buyProduct.do" method="GET" enctype="multipart/form-data">

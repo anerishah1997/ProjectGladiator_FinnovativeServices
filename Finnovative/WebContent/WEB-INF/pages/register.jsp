@@ -21,7 +21,7 @@
 <table  align="center"  style="margin-left:auto;margin-right:auto;margin-top:2%;margin-bottom:0%;">
 <tr><td>
         <h2 align="center"><b><i>Registration Page</i></b></h2>  
-<form  action="registerUser.do" method="post" id="reg" name="name">
+<form  action="registerUser.do" method="post" id="reg" name="name" enctype="multipart/form-data">
 
 <table align="center" >
     <tr>
@@ -101,11 +101,10 @@
               <td><input type="text" name="IFSCcode" id="ifscCode" placeholder="Enter IFSC code" required></td>
                <td id="ifscError"></td> 
        </tr>
-       <!-- <tr>
-            <td>File to upload: <input type="file" name="file"></td> 
-			<td>Enter username to upload file: <input type="text" name="name"></td>
-			<td><input type="submit" value="Upload"></td>
-       </tr> -->
+  <tr>
+            <td>Upload Aadhar Card: <input type="file" name="aadhar"></td> 
+		
+       </tr>
       <tr>
          <td colspan="2" align="center"><input type="submit" value="Register" onclick="validate()"/></td>
       </tr>

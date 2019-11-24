@@ -15,7 +15,7 @@
  <table  align="center"  style="margin-left:auto;margin-right:auto;margin-top:4%;margin-bottom:0%;height:120; width:40%;" > 
        
 			<tr>
-			<td rowspan="4"> <img src ="images/${ product.productImage }" id="img" style="width:15em; height:15em;" ></td>
+			<td rowspan="4"> <img src ="images/${ product.productImage }" id="img" style="width:30em; height:30em;" ></td>
 			</tr>
 			<tr>	
 			<input type="hidden" id="price" name="x" value="${ product.productPrice }"> 
